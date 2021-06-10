@@ -1,4 +1,4 @@
-.modal-btn {
+.hero__conteiner_title_modal-btn {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -12,7 +12,7 @@
   border: none;
   transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-btn:hover,
-.modal-btn:focus {
+.hero__conteiner_title_modal-btn:hover,
+.hero__conteiner_title_modal-btn:focus {
   background: var(--btn-hover-color);
 }

@@ -1,16 +1,16 @@
-.whyus {
+.services {
   padding-bottom: 0;
 }
-.whyus-menu-list {
+.services__menu {
   display: flex;
 }
-.whyus-menu-item {
+.services__menu_item {
   width: 270px;
 }
-.whyus-menu-item:not(:first-child) {
+.services__menu_item:not(:first-child) {
   margin-left: 30px;
 }
-.whyus-preimage {
+.services__menu_item_preimage {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,11 +19,11 @@
   background-color: var(--aboutus-background-color);
   margin-bottom: 30px;
 }
-.whyus-icon {
+.services-icon {
   width: 70px;
 }
 
-.whyus-menu-item-description {
+.services__menu_item_description {
   line-height: 1.71;
   color: var(--secondary-text-color);
 }
