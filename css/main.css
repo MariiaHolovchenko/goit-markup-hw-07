@@ -311,8 +311,9 @@ body {
 }
 
 .close-btn-icon {
-  width: 18px;
-  height: 18px;
+  height: 11px;
+  width: 11px;
+  fill: var(--nav-link-color);
 }
 
 .label-name {
