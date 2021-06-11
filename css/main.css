@@ -319,6 +319,11 @@ body {
   fill: var(--nav-link-color);
 }
 
+.close-btn-icon:hover,
+.close-btn-icon:focus {
+  fill: var(--accent-color);
+}
+
 .label-name {
   position: absolute;
   transform: translateY(-18px);
