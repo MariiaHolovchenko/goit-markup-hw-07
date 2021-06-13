@@ -5,8 +5,13 @@
   margin-left: auto;
   margin-right: auto;
   background-color: var(--alt-background-color);
-  background-image: linear-gradient(var(--overlay-hero-bg-color), var(--overlay-hero-bg-color)), url(../images/hero/baner.jpg);
+  background-image: linear-gradient(
+      var(--overlay-hero-bg-color),
+      var(--overlay-hero-bg-color)
+    ),
+    url(../images/baner.jpg);
   background-size: cover;
+}
 .hero__container {
   display: flex;
   flex-direction: column;
@@ -22,4 +27,4 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-background-color);
-  }
+}
