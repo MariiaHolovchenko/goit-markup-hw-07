@@ -193,7 +193,8 @@ body {
   height: 100vh;
   background-color: var(--modal-bg-color);
   z-index: 100;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal {
@@ -204,7 +205,8 @@ body {
   width: 528px;
   height: 581px;
   background-color: var(--main-background-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   padding: 40px;
 }
@@ -220,6 +222,7 @@ body {
   border: 1px solid var(--border-close-btn);
   cursor: pointer;
   padding: 0;
+  display: inline-block;
 }
 
 .is-hidden {
@@ -244,7 +247,8 @@ body {
   border-radius: 4px;
   margin-bottom: 28px;
   padding-left: 42px;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-input-wrapper {
@@ -314,9 +318,10 @@ body {
 }
 
 .close-btn-icon {
-  height: 11px;
-  width: 11px;
+  height: 18px;
+  width: 18px;
   fill: var(--nav-link-color);
+  vertical-align: middle;
 }
 
 .close-btn-icon:hover,
@@ -427,7 +432,8 @@ body {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-nav__menu_item_link:hover,
@@ -461,7 +467,11 @@ body {
   margin-left: auto;
   margin-right: auto;
   background-color: var(--alt-background-color);
-  background-image: linear-gradient(var(--overlay-hero-bg-color), var(--overlay-hero-bg-color)), url("../images/baner.jpg");
+  background-image: linear-gradient(
+      var(--overlay-hero-bg-color),
+      var(--overlay-hero-bg-color)
+    ),
+    url("../images/baner.jpg");
   background-size: cover;
 }
 
@@ -617,7 +627,9 @@ body {
   padding: 6px 22px;
   box-sizing: border-box;
   border: 1px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), filter 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    filter 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-portfolio__menu_item_btn:hover,
@@ -640,7 +652,8 @@ body {
 
 .masters__menu_item {
   background-color: var(--main-background-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   flex-basis: calc((100% - 120px) / 4);
   margin-left: 30px;
@@ -677,7 +690,8 @@ body {
   border: 1px solid var(--main-icon-color);
   box-sizing: border-box;
   border-radius: 4px;
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers__list_link:hover,

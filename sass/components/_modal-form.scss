@@ -76,10 +76,12 @@
   border-color: var(--accent-color);
 }
 .close-btn-icon {
-  height: 11px;
-  width: 11px;
+  height: 18px;
+  width: 18px;
   fill: var(--nav-link-color);
+  vertical-align: middle;
 }
+
 .close-btn-icon:hover,
 .close-btn-icon:focus {
   fill: var(--accent-color);
