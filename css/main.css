@@ -455,7 +455,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   background-color: var(--alt-background-color);
-  background-image: linear-gradient(var(--overlay-hero-bg-color), var(--overlay-hero-bg-color)), url(../images/baner.jpg);
+  background-image: linear-gradient(var(--overlay-hero-bg-color), var(--overlay-hero-bg-color)), url("../images/bg-desktop.jpg");
   background-size: cover;
 }
 
